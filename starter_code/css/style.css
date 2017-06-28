@@ -49,7 +49,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 
@@ -64,14 +64,120 @@ body {
   height: 500px;
 
 }
-
 header {
+  text-align: center;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  margin: 0 auto;
+  height: 500px;
+}
+/* h1 styles */
+#headLogo {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+#footLogo {
+  margin: 0;
+  padding: 20px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+}
+#headline { /* h2 style */
+  margin: 0;
+  position: relative;
+  top: 190px;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+}
+h4 { /* quote attribute */
+  position: relative;
+  top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+h5 { /* copright line */
+  margin: 0;
+  padding: 15px 0 20px 0;
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+}
+p, ul {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;  
+}
+blockquote {
+  position: relative;
+  top: 40px;
+  padding: 0 300px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
 }
 
+#getIt {
+  width: 125px;
+  height: 30px;
+  position: relative;
+  top: 270px;
+  background-color: #f9e42e;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #033048;
+}
+#benefits {
+  padding: 20px 70px;
+  background-color: white;
+}
+#testimonial {
+  height: 200px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
+#callToAction {
+  text-align: center;
+  background-color: #f9e42e;
+  height: 60px;
+}
+#signUp { /* button */
+  position: relative;
+  top: 15px;
+  width: 125px;
+  height: 30px;
+  background-color: #033048;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  color: white;
+}
 footer {
-
+  text-align: center;
+  background-color: #121212;
+}
+.socialIcons {
+  height: 20px;
+  margin: 10px;
+  padding:;
 }
 
 /******************************************
