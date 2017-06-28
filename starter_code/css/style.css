@@ -62,7 +62,6 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 header {
   text-align: center;
@@ -71,8 +70,7 @@ header {
   margin: 0 auto;
   height: 500px;
 }
-/* h1 styles */
-#headLogo {
+#headLogo { /* h1 style for header logo */
   position: absolute;
   top: 15px;
   left: 70px;
@@ -82,7 +80,7 @@ header {
   font-size: 24px;
   color: white;
 }
-#footLogo {
+#footLogo { /* h1 style for footer logo */
   margin: 0;
   padding: 20px;
   font-weight: 800;
@@ -97,14 +95,14 @@ header {
   font-size: 24px;
   color: white;
 }
-h3 {
+h3 { /* benefits subhead */
   font-weight: 600;
   font-size: 20px;
   color: #033048;
 }
 h4 { /* quote attribute */
-  position: relative;
-  top: 30px;
+  margin: 0;
+  padding: 5px 0 25px 0;
   font-weight: 600;
   font-size: 20px;
   color: white;
@@ -122,15 +120,13 @@ p, ul {
   color: #606161;  
 }
 blockquote {
-  position: relative;
-  top: 40px;
-  padding: 0 300px;
+  margin: 50px 300px 0 300px;
+  padding: 25px 0 10px 0;
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
   color: white;
 }
-
 #getIt {
   width: 125px;
   height: 30px;
@@ -148,7 +144,6 @@ blockquote {
   background-color: white;
 }
 #testimonial {
-  height: 200px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   text-align: center;
@@ -177,13 +172,4 @@ footer {
 .socialIcons {
   height: 20px;
   margin: 10px;
-  padding:;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
-
